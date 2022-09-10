@@ -1,4 +1,4 @@
-<h1 align="center">Pre-processador SASS </h1>
+<h1 align="center">Pré-processador SASS </h1>
 
 ``` css
     $variableName: value;
