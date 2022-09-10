@@ -5,3 +5,14 @@ body {
     background-color: #7159c1;
     color: $text-color;
 }
+
+.container {
+
+    $text-color2: rgb(0, 17, 255);
+
+    color: white;
+
+    p {
+        color: $text-color2;
+    }
+}
