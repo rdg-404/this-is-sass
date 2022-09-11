@@ -6,6 +6,18 @@ $text-color: white;
     box-shadow: 3px 3px 4px 1px $color;
 }
 
+@mixin text-effect($val){
+    @if $val == danger {
+        color: red;
+    }
+    @else if $val == alert {
+        color: yellow;
+    }
+    @else{
+        color: black;
+    }
+}
+
 body {
     background-color: #7159c1;
     color: $text-color;
@@ -21,6 +33,7 @@ body {
     color: white;
 
     p {
-        color: $text-color2;
+        @include text-effect(none);
+    
     }
 }
