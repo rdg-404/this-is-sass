@@ -160,4 +160,4 @@
        
 ```
 
-** Sempre que for usar algum hover usar o & antes para referenciar
+* Sempre que for usar algum hover usar o & antes para referenciar
