@@ -3,15 +3,16 @@
 ``` css
     $variableName: value;
 ```
-**Para adicionar uma variável**
+* Para adicionar uma variável
 
 
 ``` css
+
     @import "fileName";
     
 ```
 
-**Para importar arquivos, nota: criar arquivos com _ antes do nome ``` _base ``` para o sass não compilar**
+* Para importar arquivos, nota: criar arquivos com _ antes do nome ``` _base ``` para o sass não compilar
 
 
 ``` css
@@ -29,4 +30,22 @@
     }
 ```
 
-**Acessa os elementos filhos por meio de encadeiamento**
+* Acessa os elementos filhos por meio de encadeiamento
+
+``` css
+    
+    @mixin propriedade(){
+        propriedade: value;
+    }
+        
+```
+* Declarar um bloco de código para uso futuro
+
+``` css
+    
+    @include propriedade();
+        
+```
+
+* Utilizar o bloco de código criado acima em um determinado elemento
+
