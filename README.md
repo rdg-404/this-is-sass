@@ -125,3 +125,23 @@
 * Os 3 modos estão corretos. Adiciona uma cor específica para cada posição no index 
 
 
+<h1 align="center">Herança</h1>
+
+``` css
+    
+    
+    .flex {
+        display: flex;
+        justify-content:center;
+        align-items: center;
+    }
+    
+    
+    body{
+        @extends .flex;
+    }
+       
+```
+
+* ``` @extends ``` herda todos os atributos do elemento criado
+
