@@ -3,7 +3,7 @@
 ``` css
     $variableName: value;
 ```
-**Para adicionar uma variável**
+* Para adicionar uma variável
 
 
 ``` css
@@ -11,7 +11,7 @@
     
 ```
 
-**Para importar arquivos, nota: criar arquivos com _ antes do nome ``` _base ``` para o sass não compilar**
+* Para importar arquivos, nota: criar arquivos com _ antes do nome ``` _base ``` para o sass não compilar
 
 
 ``` css
@@ -29,7 +29,7 @@
     }
 ```
 
-**Acessa os elementos filhos por meio de encadeiamento**
+* Acessa os elementos filhos por meio de encadeiamento
 
 ``` css
     
@@ -38,7 +38,7 @@
     }
         
 ```
-**Declarar um bloco de código para uso futuro**
+* Declarar um bloco de código para uso futuro
 
 ``` css
     
@@ -46,5 +46,5 @@
         
 ```
 
-**Utilizar o bloco de código criado acima em um determinado elemento**
+* Utilizar o bloco de código criado acima em um determinado elemento
 
