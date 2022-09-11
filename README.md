@@ -76,3 +76,52 @@
 ```
 
 * Se determinada condição bater, faz algo
+
+<h1 align="center">Repetições</h1>
+
+``` css
+    
+    @for $i from 1 through 5 {
+    .text-#{$i} {
+        font-size: 15px * $i;
+    }
+}
+        
+```
+* Passa por cada elemento do html criando uma classe com número do index
+
+
+
+``` css
+    
+    $colors: (color01: blue, color02: red, color03: green);
+
+    @each $key, $color in $colors {
+        .#{$color}-text { color: $color;}
+    }
+       
+```
+
+
+``` css
+    
+    $colors: (blue, red, green);
+
+    @each $color in $colors {
+        .#{$color}-text { color: $color;}
+    }
+       
+```
+
+``` css
+    
+
+    @each $color in (blue, red, green) {
+        .#{$color}-text { color: $color;}
+    }
+       
+```
+
+* Os 3 modos estão corretos. Adiciona uma cor específica para cada posição no index 
+
+
