@@ -30,3 +30,21 @@
 ```
 
 **Acessa os elementos filhos por meio de encadeiamento**
+
+``` css
+    
+    @mixin propriedade(){
+        propriedade: value;
+    }
+        
+```
+**Declarar um bloco de código para uso futuro**
+
+``` css
+    
+    @include propriedade()
+        
+```
+
+**Utilizar o bloco de código criado acima em um determinado elemento**
+
