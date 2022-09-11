@@ -145,3 +145,19 @@
 
 * ``` @extends ``` herda todos os atributos do elemento criado
 
+
+
+<h1 align="center">Referenciar</h1>
+
+``` css
+    
+    p{
+        color: white;
+        &:hover{
+            color: red;
+        }
+    }
+       
+```
+
+** Sempre que for usar algum hover usar o & antes para referenciar
