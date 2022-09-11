@@ -42,7 +42,7 @@
 
 ``` css
     
-    @include propriedade()
+    @include propriedade();
         
 ```
 
