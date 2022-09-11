@@ -45,3 +45,12 @@ body {
         font-size: 15px * $i;
     }
 }
+
+
+
+/*percorrendo com each*/
+$colors: (color01: blue, color02: red, color03: green);
+
+@each $key, $color in $colors {
+    .#{$color}-text { color: $color;}
+}

@@ -33,4 +33,17 @@ body {
 
 .text-5 {
   font-size: 75px;
+}
+
+/*percorrendo com each*/
+.blue-text {
+  color: blue;
+}
+
+.red-text {
+  color: red;
+}
+
+.green-text {
+  color: green;
 }/*# sourceMappingURL=main.css.map */
